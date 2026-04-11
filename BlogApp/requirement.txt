@@ -1,0 +1,26 @@
+Bogify (BlogApp) - Tech Stack With Versions
+
+Runtime
+- Node.js: v20.20.2
+- npm: 10.8.2
+
+Backend
+- Express: ^5.2.1
+- Sequelize: ^6.37.8
+- PostgreSQL driver (pg): ^8.20.0
+- pg-hstore: ^2.3.4
+- dotenv: ^17.4.1
+- cors: ^2.8.6
+- bcryptjs: ^3.0.3
+- jsonwebtoken: ^9.0.3
+- mysql2: ^3.21.1
+
+Frontend
+- React: ^19.2.4
+- React DOM: ^19.2.4
+- Axios: ^1.15.0
+- Vite: ^8.0.4
+- @vitejs/plugin-react: ^6.0.1
+
+Database
+- PostgreSQL: local server on port 5432 (configured via .env)

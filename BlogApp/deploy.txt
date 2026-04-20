@@ -1,7 +1,7 @@
 1.the .pem file and your project should be in the same folder , delete node modules 
 
 2.  scp -i blog.pem -r BlogApp ec2-user@ec2-3-87-45-96.compute-1.amazonaws.com:~
-
+or ubuntu@
 3.chmod 400 blog.pem
 
 4.ssh -i blog.pem ec2-user@ec2-3-87-45-96.compute-1.amazonaws.com
